@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2415E74-59E0-43FF-AD8A-14C6BCD8B5B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IDCardMirror</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FFBAC070F0E433579597CDE2923827D4441C40AA</key>
+		<string>https://github.com/wanliyunhj/IDCardMirror.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IDCardMirror.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FFBAC070F0E433579597CDE2923827D4441C40AA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wanliyunhj/IDCardMirror.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FFBAC070F0E433579597CDE2923827D4441C40AA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FFBAC070F0E433579597CDE2923827D4441C40AA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IDCardMirror</string>
+		</dict>
+	</array>
+</dict>
+</plist>

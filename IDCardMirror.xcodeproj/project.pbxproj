@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		757321901A0CE5EC00475D92 /* PECropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 757321861A0CE5EC00475D92 /* PECropRectView.m */; };
+		757321911A0CE5EC00475D92 /* PECropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 757321881A0CE5EC00475D92 /* PECropView.m */; };
+		757321921A0CE5EC00475D92 /* PECropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573218A1A0CE5EC00475D92 /* PECropViewController.m */; };
+		757321931A0CE5EC00475D92 /* PEPhotoCropEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7573218B1A0CE5EC00475D92 /* PEPhotoCropEditor.bundle */; };
+		757321941A0CE5EC00475D92 /* PEResizeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573218D1A0CE5EC00475D92 /* PEResizeControl.m */; };
+		757321951A0CE5EC00475D92 /* UIImage+PECrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573218F1A0CE5EC00475D92 /* UIImage+PECrop.m */; };
 		7584FE361A0B6CC700FC2D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7584FE351A0B6CC700FC2D64 /* Images.xcassets */; };
 		7584FE391A0B6CC700FC2D64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7584FE371A0B6CC700FC2D64 /* LaunchScreen.xib */; };
 		7584FE451A0B6CC700FC2D64 /* IDCardMirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7584FE441A0B6CC700FC2D64 /* IDCardMirrorTests.swift */; };
@@ -28,6 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		757321851A0CE5EC00475D92 /* PECropRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropRectView.h; sourceTree = "<group>"; };
+		757321861A0CE5EC00475D92 /* PECropRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropRectView.m; sourceTree = "<group>"; };
+		757321871A0CE5EC00475D92 /* PECropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropView.h; sourceTree = "<group>"; };
+		757321881A0CE5EC00475D92 /* PECropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropView.m; sourceTree = "<group>"; };
+		757321891A0CE5EC00475D92 /* PECropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropViewController.h; sourceTree = "<group>"; };
+		7573218A1A0CE5EC00475D92 /* PECropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropViewController.m; sourceTree = "<group>"; };
+		7573218B1A0CE5EC00475D92 /* PEPhotoCropEditor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PEPhotoCropEditor.bundle; sourceTree = "<group>"; };
+		7573218C1A0CE5EC00475D92 /* PEResizeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEResizeControl.h; sourceTree = "<group>"; };
+		7573218D1A0CE5EC00475D92 /* PEResizeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEResizeControl.m; sourceTree = "<group>"; };
+		7573218E1A0CE5EC00475D92 /* UIImage+PECrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PECrop.h"; sourceTree = "<group>"; };
+		7573218F1A0CE5EC00475D92 /* UIImage+PECrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PECrop.m"; sourceTree = "<group>"; };
+		757321961A0CE77B00475D92 /* IDCardMirror-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDCardMirror-Bridging-Header.h"; sourceTree = "<group>"; };
 		7584FE291A0B6CC600FC2D64 /* IDCardMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7584FE2D1A0B6CC700FC2D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7584FE351A0B6CC700FC2D64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -81,6 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		757321841A0CE5EC00475D92 /* PEPhotoCropEditor */ = {
+			isa = PBXGroup;
+			children = (
+				757321851A0CE5EC00475D92 /* PECropRectView.h */,
+				757321861A0CE5EC00475D92 /* PECropRectView.m */,
+				757321871A0CE5EC00475D92 /* PECropView.h */,
+				757321881A0CE5EC00475D92 /* PECropView.m */,
+				757321891A0CE5EC00475D92 /* PECropViewController.h */,
+				7573218A1A0CE5EC00475D92 /* PECropViewController.m */,
+				7573218B1A0CE5EC00475D92 /* PEPhotoCropEditor.bundle */,
+				7573218C1A0CE5EC00475D92 /* PEResizeControl.h */,
+				7573218D1A0CE5EC00475D92 /* PEResizeControl.m */,
+				7573218E1A0CE5EC00475D92 /* UIImage+PECrop.h */,
+				7573218F1A0CE5EC00475D92 /* UIImage+PECrop.m */,
+			);
+			path = PEPhotoCropEditor;
+			sourceTree = "<group>";
+		};
 		7584FE201A0B6CC600FC2D64 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +144,7 @@
 				7584FE351A0B6CC700FC2D64 /* Images.xcassets */,
 				7584FE371A0B6CC700FC2D64 /* LaunchScreen.xib */,
 				7584FE2C1A0B6CC700FC2D64 /* Supporting Files */,
+				757321961A0CE77B00475D92 /* IDCardMirror-Bridging-Header.h */,
 			);
 			path = IDCardMirror;
 			sourceTree = "<group>";
@@ -140,6 +177,7 @@
 		7584FE4E1A0B6EA800FC2D64 /* OCLibs */ = {
 			isa = PBXGroup;
 			children = (
+				757321841A0CE5EC00475D92 /* PEPhotoCropEditor */,
 				7584FE591A0B6FDF00FC2D64 /* HJUtility */,
 			);
 			path = OCLibs;
@@ -248,6 +286,7 @@
 				TargetAttributes = {
 					7584FE281A0B6CC600FC2D64 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8H4LZNVD3C;
 					};
 					7584FE3D1A0B6CC700FC2D64 = {
 						CreatedOnToolsVersion = 6.1;
@@ -281,6 +320,7 @@
 			files = (
 				7584FE391A0B6CC700FC2D64 /* LaunchScreen.xib in Resources */,
 				7584FE581A0B6FC000FC2D64 /* MainViewController.xib in Resources */,
+				757321931A0CE5EC00475D92 /* PEPhotoCropEditor.bundle in Resources */,
 				7584FE361A0B6CC700FC2D64 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,9 +339,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757321951A0CE5EC00475D92 /* UIImage+PECrop.m in Sources */,
 				7584FE571A0B6FC000FC2D64 /* MainViewController.swift in Sources */,
+				757321901A0CE5EC00475D92 /* PECropRectView.m in Sources */,
+				757321911A0CE5EC00475D92 /* PECropView.m in Sources */,
+				757321921A0CE5EC00475D92 /* PECropViewController.m in Sources */,
 				7584FE511A0B6EC500FC2D64 /* AppDelegate.swift in Sources */,
 				7584FE541A0B6F4F00FC2D64 /* BaseViewController.swift in Sources */,
+				757321941A0CE5EC00475D92 /* PEResizeControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +462,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IDCardMirror/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,6 +472,8 @@
 					"$(PROJECT_DIR)/IDCardMirror/OCLibs/HJUtility",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IDCardMirror/IDCardMirror-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -434,7 +482,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = IDCardMirror/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,6 +492,8 @@
 					"$(PROJECT_DIR)/IDCardMirror/OCLibs/HJUtility",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IDCardMirror/IDCardMirror-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -499,6 +550,7 @@
 				7584FE4A1A0B6CC700FC2D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7584FE4B1A0B6CC700FC2D64 /* Build configuration list for PBXNativeTarget "IDCardMirrorTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +559,7 @@
 				7584FE4D1A0B6CC700FC2D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
