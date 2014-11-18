@@ -17,44 +17,53 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqg-ac-IBj">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqg-ac-IBj">
                     <rect key="frame" x="150" y="280" width="300" height="190"/>
-                    <color key="backgroundColor" red="0.32970010080000001" green="0.97404233870000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="4vm-sj-bmV"/>
                         <constraint firstAttribute="height" constant="190" id="l6t-jo-eJP"/>
                     </constraints>
-                    <state key="normal" title="拍摄身份证反面">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="拍摄身份证反面" backgroundImage="dash_frame.png">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="takeNegativePhoto:" destination="-1" eventType="touchUpInside" id="4Md-Wu-i1S"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFM-f4-ZXV">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFM-f4-ZXV">
                     <rect key="frame" x="150" y="50" width="300" height="190"/>
-                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="U5l-At-Jfv"/>
                         <constraint firstAttribute="height" constant="190" id="UNM-PT-6pF"/>
                     </constraints>
-                    <state key="normal" title="拍摄身份证正面">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="拍摄身份证正面" backgroundImage="dash_frame.png">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="takePositivePhoto:" destination="-1" eventType="touchUpInside" id="dAI-RS-eI0"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJa-O4-0Xv">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJa-O4-0Xv">
                     <rect key="frame" x="210" y="530" width="180" height="40"/>
-                    <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="jlr-1w-k5c"/>
                         <constraint firstAttribute="width" constant="180" id="kwt-ia-AmX"/>
                     </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <state key="normal" title="合体">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="combine:" destination="-1" eventType="touchUpInside" id="lfK-cS-GN7"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -71,4 +80,7 @@
             <point key="canvasLocation" x="548" y="546"/>
         </view>
     </objects>
+    <resources>
+        <image name="dash_frame.png" width="300" height="190"/>
+    </resources>
 </document>

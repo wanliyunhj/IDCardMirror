@@ -8,3 +8,4 @@
 
 #import "HJUtility.h"
 #import "PECropViewController.h"
+#import "UIImage+Resize.h"

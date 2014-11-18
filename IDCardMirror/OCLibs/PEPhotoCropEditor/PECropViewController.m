@@ -89,6 +89,7 @@ static inline NSString *PELocalizedString(NSString *key, NSString *comment)
     leftButton.backgroundColor = [UIColor clearColor];
     leftButton.titleLabel.font = [UIFont systemFontOfSize:15];
     [leftButton setTitle:@"取消" forState:UIControlStateNormal];
+    [leftButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     [leftButton setAdjustsImageWhenHighlighted:NO];
     leftButton.titleEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 20);
 
@@ -99,6 +100,7 @@ static inline NSString *PELocalizedString(NSString *key, NSString *comment)
     saveButton.backgroundColor = [UIColor clearColor];
     saveButton.frame = CGRectMake(0, 0, 60, 36);
     [saveButton setTitle:@"保存" forState:UIControlStateNormal];
+    [saveButton setTitleColor:[UIColor colorWithRed:0 green:122.0/255.0 blue:1 alpha:1] forState:UIControlStateNormal];
     saveButton.titleLabel.font = [UIFont systemFontOfSize:15];
     [saveButton addTarget:self action:@selector(done:) forControlEvents:UIControlEventTouchUpInside];
     [saveButton setAdjustsImageWhenHighlighted:NO];

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753C1A011A1B51B000AE3349 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C19F81A1B51B000AE3349 /* UIImage+Alpha.m */; };
+		753C1A021A1B51B000AE3349 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C19FA1A1B51B000AE3349 /* UIImage+FixOrientation.m */; };
+		753C1A031A1B51B000AE3349 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C19FC1A1B51B000AE3349 /* UIImage+Resize.m */; };
+		753C1A041A1B51B000AE3349 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C19FE1A1B51B000AE3349 /* UIImage+Rotate.m */; };
+		753C1A051A1B51B000AE3349 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C1A001A1B51B000AE3349 /* UIImage+RoundedCorner.m */; };
+		753C1A081A1B597600AE3349 /* CombineImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753C1A061A1B597600AE3349 /* CombineImageViewController.swift */; };
+		753C1A091A1B597600AE3349 /* CombineImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753C1A071A1B597600AE3349 /* CombineImageViewController.xib */; };
+		753C1A0F1A1B686600AE3349 /* dash_frame@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753C1A0C1A1B686600AE3349 /* dash_frame@3x.png */; };
+		753C1A101A1B686600AE3349 /* dash_frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753C1A0D1A1B686600AE3349 /* dash_frame@2x.png */; };
+		753C1A111A1B686600AE3349 /* dash_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 753C1A0E1A1B686600AE3349 /* dash_frame.png */; };
 		757321901A0CE5EC00475D92 /* PECropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 757321861A0CE5EC00475D92 /* PECropRectView.m */; };
 		757321911A0CE5EC00475D92 /* PECropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 757321881A0CE5EC00475D92 /* PECropView.m */; };
 		757321921A0CE5EC00475D92 /* PECropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573218A1A0CE5EC00475D92 /* PECropViewController.m */; };
@@ -34,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		753C19F71A1B51B000AE3349 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		753C19F81A1B51B000AE3349 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		753C19F91A1B51B000AE3349 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		753C19FA1A1B51B000AE3349 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		753C19FB1A1B51B000AE3349 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		753C19FC1A1B51B000AE3349 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		753C19FD1A1B51B000AE3349 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		753C19FE1A1B51B000AE3349 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		753C19FF1A1B51B000AE3349 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		753C1A001A1B51B000AE3349 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		753C1A061A1B597600AE3349 /* CombineImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineImageViewController.swift; sourceTree = "<group>"; };
+		753C1A071A1B597600AE3349 /* CombineImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombineImageViewController.xib; sourceTree = "<group>"; };
+		753C1A0C1A1B686600AE3349 /* dash_frame@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dash_frame@3x.png"; sourceTree = "<group>"; };
+		753C1A0D1A1B686600AE3349 /* dash_frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dash_frame@2x.png"; sourceTree = "<group>"; };
+		753C1A0E1A1B686600AE3349 /* dash_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash_frame.png; sourceTree = "<group>"; };
 		757321851A0CE5EC00475D92 /* PECropRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropRectView.h; sourceTree = "<group>"; };
 		757321861A0CE5EC00475D92 /* PECropRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PECropRectView.m; sourceTree = "<group>"; };
 		757321871A0CE5EC00475D92 /* PECropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PECropView.h; sourceTree = "<group>"; };
@@ -99,6 +124,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		753C19F61A1B51B000AE3349 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				753C19F71A1B51B000AE3349 /* UIImage+Alpha.h */,
+				753C19F81A1B51B000AE3349 /* UIImage+Alpha.m */,
+				753C19F91A1B51B000AE3349 /* UIImage+FixOrientation.h */,
+				753C19FA1A1B51B000AE3349 /* UIImage+FixOrientation.m */,
+				753C19FB1A1B51B000AE3349 /* UIImage+Resize.h */,
+				753C19FC1A1B51B000AE3349 /* UIImage+Resize.m */,
+				753C19FD1A1B51B000AE3349 /* UIImage+Rotate.h */,
+				753C19FE1A1B51B000AE3349 /* UIImage+Rotate.m */,
+				753C19FF1A1B51B000AE3349 /* UIImage+RoundedCorner.h */,
+				753C1A001A1B51B000AE3349 /* UIImage+RoundedCorner.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		753C1A0B1A1B685600AE3349 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				753C1A0C1A1B686600AE3349 /* dash_frame@3x.png */,
+				753C1A0D1A1B686600AE3349 /* dash_frame@2x.png */,
+				753C1A0E1A1B686600AE3349 /* dash_frame.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		757321841A0CE5EC00475D92 /* PEPhotoCropEditor */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +193,7 @@
 				7584FE4E1A0B6EA800FC2D64 /* OCLibs */,
 				7584FE4F1A0B6EC500FC2D64 /* AppDelegate */,
 				7584FE521A0B6F2E00FC2D64 /* ViewControllers */,
+				753C1A0B1A1B685600AE3349 /* Resources */,
 				7584FE351A0B6CC700FC2D64 /* Images.xcassets */,
 				7584FE371A0B6CC700FC2D64 /* LaunchScreen.xib */,
 				7584FE2C1A0B6CC700FC2D64 /* Supporting Files */,
@@ -177,6 +230,7 @@
 		7584FE4E1A0B6EA800FC2D64 /* OCLibs */ = {
 			isa = PBXGroup;
 			children = (
+				753C19F61A1B51B000AE3349 /* UIImage */,
 				757321841A0CE5EC00475D92 /* PEPhotoCropEditor */,
 				7584FE591A0B6FDF00FC2D64 /* HJUtility */,
 			);
@@ -197,6 +251,8 @@
 				7584FE531A0B6F4F00FC2D64 /* BaseViewController.swift */,
 				7584FE551A0B6FC000FC2D64 /* MainViewController.swift */,
 				7584FE561A0B6FC000FC2D64 /* MainViewController.xib */,
+				753C1A061A1B597600AE3349 /* CombineImageViewController.swift */,
+				753C1A071A1B597600AE3349 /* CombineImageViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -319,7 +375,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7584FE391A0B6CC700FC2D64 /* LaunchScreen.xib in Resources */,
+				753C1A091A1B597600AE3349 /* CombineImageViewController.xib in Resources */,
+				753C1A101A1B686600AE3349 /* dash_frame@2x.png in Resources */,
+				753C1A111A1B686600AE3349 /* dash_frame.png in Resources */,
 				7584FE581A0B6FC000FC2D64 /* MainViewController.xib in Resources */,
+				753C1A0F1A1B686600AE3349 /* dash_frame@3x.png in Resources */,
 				757321931A0CE5EC00475D92 /* PEPhotoCropEditor.bundle in Resources */,
 				7584FE361A0B6CC700FC2D64 /* Images.xcassets in Resources */,
 			);
@@ -341,11 +401,17 @@
 			files = (
 				757321951A0CE5EC00475D92 /* UIImage+PECrop.m in Sources */,
 				7584FE571A0B6FC000FC2D64 /* MainViewController.swift in Sources */,
+				753C1A041A1B51B000AE3349 /* UIImage+Rotate.m in Sources */,
+				753C1A011A1B51B000AE3349 /* UIImage+Alpha.m in Sources */,
 				757321901A0CE5EC00475D92 /* PECropRectView.m in Sources */,
 				757321911A0CE5EC00475D92 /* PECropView.m in Sources */,
 				757321921A0CE5EC00475D92 /* PECropViewController.m in Sources */,
 				7584FE511A0B6EC500FC2D64 /* AppDelegate.swift in Sources */,
+				753C1A051A1B51B000AE3349 /* UIImage+RoundedCorner.m in Sources */,
 				7584FE541A0B6F4F00FC2D64 /* BaseViewController.swift in Sources */,
+				753C1A031A1B51B000AE3349 /* UIImage+Resize.m in Sources */,
+				753C1A021A1B51B000AE3349 /* UIImage+FixOrientation.m in Sources */,
+				753C1A081A1B597600AE3349 /* CombineImageViewController.swift in Sources */,
 				757321941A0CE5EC00475D92 /* PEResizeControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,7 +528,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IDCardMirror/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -482,8 +548,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IDCardMirror/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
