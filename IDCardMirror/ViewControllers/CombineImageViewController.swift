@@ -41,7 +41,7 @@ class CombineImageViewController: BaseViewController {
     
     func save () {
         UIImageWriteToSavedPhotosAlbum(self.image, nil, nil, nil)
-        var alert:UIAlertView = UIAlertView(title: "", message: "保存成功", delegate: nil, cancelButtonTitle: "好的")
+        var alert:UIAlertView = UIAlertView(title: "", message: "保存成功，请到相册中查看", delegate: nil, cancelButtonTitle: "好的")
         alert.show()
         cancel()
     }
