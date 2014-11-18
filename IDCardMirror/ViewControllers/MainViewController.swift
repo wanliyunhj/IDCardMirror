@@ -38,6 +38,17 @@ class MainViewController: BaseViewController ,UIActionSheetDelegate, UIImagePick
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.positiveButton.layer.cornerRadius = 5
+        self.positiveButton.layer.borderWidth = 0
+        self.positiveButton.layer.borderColor = UIColor.clearColor().CGColor
+        self.positiveButton.layer.masksToBounds = true
+        
+        self.negativeButton.layer.cornerRadius = 5
+        self.negativeButton.layer.borderWidth = 0
+        self.negativeButton.layer.borderColor = UIColor.clearColor().CGColor
+        self.negativeButton.layer.masksToBounds = true
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -120,7 +131,11 @@ class MainViewController: BaseViewController ,UIActionSheetDelegate, UIImagePick
         cropViewController.imagePickerViewController = picker
         cropViewController.imageCropRect = CGRectMake(0, 0, 300, 190)
         cropViewController.cropRect = CGRectMake(0, 0, 300, 190)
+        
         var navController:UINavigationController = UINavigationController(rootViewController: cropViewController)
+        
+        cropViewController.title = "裁剪照片"
+        
         picker.presentViewController(navController, animated: true, completion: nil)
     }
         
